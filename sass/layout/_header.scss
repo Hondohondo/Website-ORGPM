@@ -1,0 +1,105 @@
+.header {
+    height: 95vh;
+    /* background-image: linear-gradient(
+        to right bottom, 
+        rgba(126, 213, 111, 0.801),
+        rgba(39, 179, 132, 0.801)), 
+    url(../img/hero.jpg); */
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+
+
+
+    &__nav-bar {
+        width: 100%;
+        /* box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1) */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    }
+
+    &__logo {
+        /* height: 100px; */
+        width: auto;
+        float: left;
+        /* margin-top: 20px; */
+        padding-left: 3rem;
+    }
+
+    &__text-box {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
+
+
+.main-nav {
+    font-size: 1.6rem;
+    /* position: relative; */
+    float: right;
+    list-style: none;
+    /* margin-top: 55px; */
+    padding-right: 2.5rem;
+    padding-left: .5rem;
+
+    & li {
+        position: relative;
+        display: inline-block;
+        /* margin-left: 40px; */
+        line-height: 8rem;
+
+        &:hover a:before {
+            transform: scale3d(1, 1, 1);
+            transform-origin: 0 50%;
+            transition: all 320ms ease;
+        }
+
+        & a::before {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 50%;
+            left: 1.8rem;
+            margin-top: 1.5rem;
+            width: 1.4rem;
+            height: .2rem;
+            background: #fff;
+        
+            transform: scale3d(0, 1, 1);
+            transform-origin: 0 50%;
+            transition: all 320ms ease;
+            
+        }
+        & a:link,
+        & a:visited {
+        /* padding: 8px 0; */
+        padding: 0 2.5rem 0 2.5rem;
+        color: #fff;
+        text-decoration: none;
+        /* text-transform: uppercase; */
+        font-size: 90%;
+        /* border-bottom: 2px solid transparent; */
+        /* transition: border-bottom 0.2s; */
+
+        /* transition: all 320ms ease; */
+        }       
+    }
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    /* border-bottom: 2px solid #e67e22; */
+    /* border-bottom: 1px solid #e67e22; */
+    
+}
