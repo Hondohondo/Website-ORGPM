@@ -15,8 +15,7 @@ body {
   box-sizing: border-box; }
 
 body {
-  /* font-family: "Lato", sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
@@ -55,23 +54,33 @@ body {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: .2rem;
-  transition: all .2s; }
-  .heading-secondary:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+  letter-spacing: .2rem; }
+
+.block-text {
+  width: 70%;
+  margin: 0 auto; }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
 
 .u-center-text {
   text-align: center; }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-big {
   margin-bottom: 8rem; }
 
-.u-margin-bottom-8 {
-  margin-bottom: 8rem; }
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
 
-.u-margin-bottom-8 {
-  margin-bottom: 8rem; }
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
 
 .btn--white {
   /* text-align: center; */
@@ -85,6 +94,25 @@ body {
   border-radius: 6rem;
   letter-spacing: .1rem;
   padding: 2.1rem 4.4rem; }
+
+.btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px;
+  transition: all .2s; }
+
+.btn-text:hover {
+  background-color: #55c57a;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0); }
 
 .row {
   max-width: 114rem;
@@ -166,7 +194,7 @@ body {
       position: absolute;
       display: block;
       top: 50%;
-      left: 1.8rem;
+      left: 2.5rem;
       margin-top: 1.5rem;
       width: 1.4rem;
       height: .2rem;
@@ -193,4 +221,4 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 10rem 0; }
