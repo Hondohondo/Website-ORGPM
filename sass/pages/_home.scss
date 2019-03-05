@@ -3,3 +3,15 @@
     padding: 10rem 0;
 
 }
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(126, 213, 111, 0.801),
+        rgba(39, 179, 132, 0.801)), 
+    url(../img/hero.jpg);
+
+    // background-image: url(../img/hero.jpg);
+    background-size: cover;
+}
