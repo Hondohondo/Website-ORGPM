@@ -166,11 +166,43 @@ body {
     color: #55c57a;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.3); }
+  .footer__socialbox {
+    text-align: center;
+    padding-top: 2rem;
+    width: 80%;
+    margin-top: 2rem; }
+  .footer__social-links {
+    list-style: none; }
+  .footer__social-icons {
+    display: inline-block;
+    margin-right: 2rem; }
+    .footer__social-icons:last-child {
+      margin-right: 0; }
+  .footer__icons-links:link, .footer__icons-links:visited {
+    font-size: 2.4rem;
+    color: #888888;
+    transition: color 0.2s; }
+  .footer__icons-links:hover, .footer__icons-links:active {
+    color: #dddddd; }
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;
     width: 80%;
     float: right; }
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+  transition: color 0.2s; }
+
+.ion-social-facebook:hover {
+  color: #3b5998; }
+
+.ion-social-twitter:hover {
+  color: #00aced; }
+
+.ion-social-instagram:hover {
+  color: #bc2a8d; }
 
 .row {
   max-width: 114rem;

@@ -59,17 +59,43 @@
             transform: rotate(5deg) scale(1.3);
         }
 
-        // &__socialbox {
-        //     border-top: 1px solid $color-grey-dark;
-        //     padding-top: 2rem;
-        //     display: inline-block;
-    
-        // }
+    }
 
-        // &__social {
-        //     list-style: none;
-    
-        // }
+    &__socialbox {
+        // border-top: 1px solid $color-grey-dark;
+        text-align: center;
+        padding-top: 2rem;
+        // display: inline-block;
+        width: 80%;
+        margin-top: 2rem;
+
+    }
+
+    &__social-links {
+        list-style: none;
+    }
+
+    &__social-icons {
+        display: inline-block;
+        margin-right: 2rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__icons-links {
+        &:link,
+        &:visited {
+            font-size: 2.4rem;
+            color: #888888;
+            transition: color 0.2s;
+        }
+
+        &:hover,
+        &:active {
+            color: #dddddd;
+        }
 
     }
 
@@ -79,4 +105,22 @@
         width: 80%;
         float: right;
     }
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-instagram:hover {
+    // color: #517fa4;
+    color: #bc2a8d;
 }
