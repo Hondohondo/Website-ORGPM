@@ -103,3 +103,44 @@
     /* border-bottom: 1px solid #e67e22; */
     
 }
+
+#service {
+    background-image: url(../img/services.jpg);
+    /* height: auto;
+    width: auto; */
+    height: 47vh;
+    // background-size: cover;
+    // background-position: top;
+}
+
+.service__container {
+    max-width: 117rem;
+    margin: 0 auto;
+    padding-top: 8rem;
+
+    span {
+        color: $color-white;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+}
+
+.service-content {
+
+    h1 {
+        color: $color-white;
+        font-weight: 300;
+        font-size: 3.5rem;
+        letter-spacing: 1.8px;
+    }
+   
+}
+
+.hr-line {
+    border-color: rgba(255,255,255,0.1);
+    height: 1px;
+    border-width: 0;
+    border-bottom-width: 1px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
