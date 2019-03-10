@@ -317,11 +317,14 @@ body {
 .service__container {
   max-width: 117rem;
   margin: 0 auto;
-  padding-top: 8rem; }
+  padding-top: 6.5rem; }
   .service__container span {
+    display: block;
+    width: 70%;
     color: #fff;
     font-weight: 300;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    letter-spacing: 0.15px; }
 
 .service-content h1 {
   color: #fff;
@@ -336,6 +339,30 @@ body {
   border-bottom-width: 1px;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem; }
+
+.section-services {
+  background-color: #f4f4f4; }
+
+.service-type {
+  background-color: #fff;
+  border-radius: .5rem;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 .2rem .2rem #efefef; }
+  .service-type div {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e8e8e8; }
+    .service-type div:first-child {
+      background-color: #fcfcfc;
+      border-top-left-radius: .5rem;
+      border-top-right-radius: .5rem; }
+    .service-type div:last-child {
+      text-align: center;
+      border: none; }
+  .service-type ul {
+    list-style: none; }
+    .service-type ul li {
+      padding: .5rem 0; }
 
 .section-about {
   background-color: #f7f7f7;
