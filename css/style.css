@@ -341,7 +341,8 @@ body {
   margin-bottom: 2.5rem; }
 
 .section-services {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  padding: 8rem 0; }
 
 .service-type {
   background-color: #fff;
@@ -358,11 +359,36 @@ body {
       border-top-right-radius: .5rem; }
     .service-type div:last-child {
       text-align: center;
-      border: none; }
+      border: none;
+      margin-bottom: .5rem; }
+  .service-type h3 {
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.2rem; }
   .service-type ul {
     list-style: none; }
     .service-type ul li {
-      padding: .5rem 0; }
+      padding: .5rem 0;
+      font-size: 1.8rem;
+      font-weight: 300; }
+
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #55c57a;
+  margin-bottom: 1rem; }
+
+.icon-small {
+  display: inline-block;
+  width: 3rem;
+  text-align: center;
+  color: #55c57a;
+  font-size: 1.4rem;
+  margin-right: .5rem;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -.3px; }
 
 .section-about {
   background-color: #f7f7f7;
