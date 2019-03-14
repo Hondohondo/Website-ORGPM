@@ -130,6 +130,10 @@
     }
 }
 
+/* ---------------------------------------------
+------ SERVICES SECTION ----------------
+--------------------------------------------- */
+
 .service-content {
 
     h1 {
@@ -208,6 +212,66 @@
         }
     }
 }
+
+/* ---------------------------------------------
+------ TEAM SECTION ----------------
+--------------------------------------------- */
+
+.section-team {
+    background-color: #f4f4f4;
+    padding: 8rem 0;
+
+    a:link,
+    a:visited {
+        color: $color-primary;
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px solid $color-primary;
+        transition: border-bottom 0.2s, color 0.2s;
+        
+    }
+
+    a:hover,
+    a:active {
+        color: #555;
+        border-bottom: 1px solid transparent;
+
+    }
+
+    h3 {
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+    }
+}
+
+.team-contacts {
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+    .icon-small {
+        font-size: 1.8rem;
+    }
+}
+
+.box img {
+    width: 100%;
+    // height: auto;
+    height: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ---------------------------------------------
+------ LINKS ----------------
+--------------------------------------------- */
+
+
+
+/* ---------------------------------------------
+------ ICONS ----------------
+--------------------------------------------- */
 
 .icon-big {
     font-size: 350%;

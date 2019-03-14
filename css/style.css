@@ -326,6 +326,9 @@ body {
     font-size: 1.5rem;
     letter-spacing: 0.15px; }
 
+/* ---------------------------------------------
+------ SERVICES SECTION ----------------
+--------------------------------------------- */
 .service-content h1 {
   color: #fff;
   font-weight: 300;
@@ -373,6 +376,46 @@ body {
       font-size: 1.8rem;
       font-weight: 300; }
 
+/* ---------------------------------------------
+------ TEAM SECTION ----------------
+--------------------------------------------- */
+.section-team {
+  background-color: #f4f4f4;
+  padding: 8rem 0; }
+  .section-team a:link,
+  .section-team a:visited {
+    color: #55c57a;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #55c57a;
+    transition: border-bottom 0.2s, color 0.2s; }
+  .section-team a:hover,
+  .section-team a:active {
+    color: #555;
+    border-bottom: 1px solid transparent; }
+  .section-team h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.8rem; }
+
+.team-contacts {
+  margin-bottom: .5rem;
+  font-size: 1.6rem;
+  font-weight: 300; }
+  .team-contacts .icon-small {
+    font-size: 1.8rem; }
+
+.box img {
+  width: 100%;
+  height: 25rem;
+  margin-bottom: 1.5rem; }
+
+/* ---------------------------------------------
+------ LINKS ----------------
+--------------------------------------------- */
+/* ---------------------------------------------
+------ ICONS ----------------
+--------------------------------------------- */
 .icon-big {
   font-size: 350%;
   display: block;
