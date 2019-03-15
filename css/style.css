@@ -327,6 +327,9 @@ body {
     letter-spacing: 0.15px; }
 
 /* ---------------------------------------------
+------ ABOUT SECTION ----------------
+--------------------------------------------- */
+/* ---------------------------------------------
 ------ SERVICES SECTION ----------------
 --------------------------------------------- */
 .service-content h1 {
@@ -343,7 +346,10 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem; }
 
-.section-services {
+.section-services,
+.section-team,
+.section-research,
+.section-about-history {
   background-color: #f4f4f4;
   padding: 8rem 0; }
 
@@ -369,6 +375,13 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 2.2rem; }
+  .service-type p {
+    width: 80%;
+    line-height: 1.7;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: left;
+    margin: 0 auto 2.5rem auto; }
   .service-type ul {
     list-style: none; }
     .service-type ul li {
@@ -379,24 +392,28 @@ body {
 /* ---------------------------------------------
 ------ TEAM SECTION ----------------
 --------------------------------------------- */
-.section-team {
-  background-color: #f4f4f4;
-  padding: 8rem 0; }
-  .section-team a:link,
-  .section-team a:visited {
-    color: #55c57a;
-    text-decoration: none;
-    padding-bottom: 1px;
-    border-bottom: 1px solid #55c57a;
-    transition: border-bottom 0.2s, color 0.2s; }
-  .section-team a:hover,
-  .section-team a:active {
-    color: #555;
-    border-bottom: 1px solid transparent; }
-  .section-team h3 {
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 1.8rem; }
+.section-team a:link,
+.section-team a:visited,
+.section-research a:link,
+.section-research a:visited {
+  color: #55c57a;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #55c57a;
+  transition: border-bottom 0.2s, color 0.2s; }
+
+.section-team a:hover,
+.section-team a:active,
+.section-research a:hover,
+.section-research a:active {
+  color: #555;
+  border-bottom: 1px solid transparent; }
+
+.section-team .team-names,
+.section-research .team-names {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.8rem; }
 
 .team-contacts {
   margin-bottom: .5rem;
@@ -441,3 +458,17 @@ body {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.801), rgba(39, 179, 132, 0.801)), url(../img/hero.jpg);
   background-size: cover; }
+
+.section-book {
+  padding: 15rem 0;
+  background-color: #f4f4f4; }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+  height: 50rem; }
+  .book__form {
+    width: 50%;
+    padding: 6rem; }
