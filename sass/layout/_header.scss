@@ -8,6 +8,7 @@
     background-image: url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
+    position: relative;
 
 
 
@@ -15,6 +16,7 @@
         width: 100%;
         /* box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1) */
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        // margin-left: 4rem;
 
         &::after {
             content: "";
@@ -24,18 +26,24 @@
 
     }
 
+    &__logo-box {
+        position: absolute;
+        // top: 4rem;
+        // left: 4rem;
+    }
+
     &__logo {
-        /* height: 100px; */
+         height: 16rem; 
         width: auto;
         float: left;
         /* margin-top: 20px; */
-        padding-left: 3rem;
+        // padding-left: 3rem;
     }
 
     &__text-box {
         width: 100%;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
