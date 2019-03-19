@@ -5,8 +5,16 @@
         rgba(126, 213, 111, 0.801),
         rgba(39, 179, 132, 0.801)), 
     url(../img/hero.jpg); */
-    background-image: url(../img/hero.jpg);
-   // background-image: url(../img/hero4.png);
+    // background-image: linear-gradient(
+    //     to right bottom, 
+    //     #131317 0%,
+    //     #7e8087 100%), url(../img/3.jpg); 
+
+   // background-image: radial-gradient(#bbbbbb,grey,#333333);
+   //background-image: radial-gradient(#a0a0a0,#7e8087,transparent), url(../img/3.jpg);;
+
+   background-image: url(../img/hero.jpg);
+   //background-image: url(../img/heroo.png);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -322,3 +330,5 @@
     vertical-align: middle;
     margin-top: -.3px;
 }
+
+
