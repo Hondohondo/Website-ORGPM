@@ -11,6 +11,7 @@
         <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
 
         <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="css/animate.css">
 
 
         <link rel="stylesheet" href="css/style.css">
@@ -22,10 +23,13 @@
     </head>
     <body>
         <header class="header">
+
+            <nav>
+
             <div class="header__logo-box">
                 <img src="img/logo.png" alt="ORG logo" class="header__logo">
             </div>
-            <nav class="header__nav-bar">
+            <div class="header__nav-bar">
                 <!-- <img src="img/logo.png" alt="ORG logo" class="header__logo"> -->
                 <ul class="main-nav">
                     <li><a href="home.html">Home</a></li>
@@ -35,6 +39,8 @@
                     <li><a href="research.html">Research</a></li>
                     <li><a href="acres.html">Acres</a></li>
                 </ul>
+            </div>
+
             </nav>
 
             <div class="header__text-box">
@@ -45,21 +51,21 @@
 
                 </h1>
 
-                <a href="#section-tours" class="btn btn--white btn--animated">READ MORE</a>
+                <a href="#section-tours" class="btn btn--white btn--animated js--scroll-to-services">READ MORE</a>
             </div>
 
 
         </header>
 
         <main>
-            <section class="section-about">
+            <section class="section-about js--section-about">
                 <div class="u-center-text u-margin-bottom-medium">
                     <h2 class="heading-secondary">
                         ORG Portfolio Management
                     </h2>
                 </div>
 
-                <div class="row">
+                <div class="row js--wp-2">
                     <div class="block-text">
                         <h3 class="heading-tertiary u-margin-bottom-small">Investment Judgement</h3>
                         <p class="paragraph">
@@ -80,9 +86,9 @@
                 
             </section>
 
-            <section class="section-features">
+            <section class="section-features js--section-features">
 
-                <div class="row">
+                <div class="row js--wp-1">
                     <div class="col-1-of-4">
                         <div class="feature-box">
                             <!-- <i class="feature-box__icon icon-basic-world"></i> -->
@@ -244,5 +250,16 @@
             </div>
         </section> -->
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- <script src="javascipt/jquery.waypoints.min.js"></script>
+        <script src="javascript/noframework.waypoints.min.js"></script> -->
+
+        <script src="javascript/jquery.waypoints.min.js"></script>
+
+        <script src="javascript/script.js"></script>
+
     </body>
+
+    
 </html>
