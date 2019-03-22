@@ -12,10 +12,11 @@
         margin-bottom: .5rem;
 
         display: inline-block;
-        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
+        //background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+       // -webkit-background-clip: text;
+       // background-clip: text;
+       // color: transparent;
+       color: $color-org-green;
         
     }
     &:hover {

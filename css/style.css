@@ -129,10 +129,7 @@ body {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #7ed56f, #28b485);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; }
+    color: #6b9912; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
@@ -334,6 +331,20 @@ body {
     width: auto;
     float: left;
     /* margin-top: 20px; */ }
+
+/* ---------------------------------------------
+------ MOBILE NAVIGATION ----------------
+--------------------------------------------- */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  display: none; }
+
+.mobile-nav-icon i {
+  font-size: 3.2rem;
+  color: #fff; }
 
 #service {
   background-image: url(../img/services.jpg);

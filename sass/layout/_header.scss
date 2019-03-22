@@ -39,6 +39,12 @@
         position: absolute;
         // top: 4rem;
         // left: 4rem;
+
+        // &::after {
+        //     content: "";
+        //     clear: both;
+        //     display: table;
+        // }
     }
 
     &__logo {
@@ -165,6 +171,26 @@
        /* margin-top: 20px; */
        // padding-left: 3rem;
    }
+}
+
+
+/* ---------------------------------------------
+------ MOBILE NAVIGATION ----------------
+--------------------------------------------- */
+
+.mobile-nav-icon {
+   float: right;
+    margin-top: 2rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.mobile-nav-icon i {
+   font-size: 3.2rem;
+   // font-size: 200%;
+    color: #fff;
 }
 
 #service {
