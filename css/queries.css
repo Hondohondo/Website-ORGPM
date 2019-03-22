@@ -34,9 +34,7 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    .main-nav {
-        display: none;
-    } 
+    
     .main-nav {
         float: left;
         margin-top: 2rem;
@@ -49,9 +47,9 @@
         line-height: 4rem;
     }
 
-    /* .header__logo {
+    .header__logo {
         height: 12rem;
-    } */
+    } 
 
 
 
@@ -66,7 +64,7 @@
 
     .sticky .mobile-nav-icon { 
         margin-top: 1rem;
-        line-height: 8rem;
+        line-height: 6.5rem;
     }
     
     .sticky .mobile-nav-icon i {color: #555;}
