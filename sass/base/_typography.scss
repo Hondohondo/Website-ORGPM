@@ -5,13 +5,12 @@ body {
     /* font-size: 16px; */
     line-height: 1.7;
     color: $color-grey-dark;
-    /* padding: 3rem; */
-    /* padding: 30px; */
+   
 }
 
 .heading-primary {
     color: $color-white;
-    /* margin-bottom: 6rem; */
+   // margin-bottom: 6rem; 
 
     &--main {
         display: block;
@@ -23,6 +22,11 @@ body {
         text-align: center;
         /* letter-spacing: 3.5rem; */
         margin-bottom: 4rem;
+
+        @include respond(phone) {
+            font-size: 1.4rem;
+            letter-spacing: 0px;
+        }
     
     }
     
@@ -35,6 +39,10 @@ body {
         letter-spacing: 0px;
         text-align: center;
         margin-bottom: 5rem;
+
+        @include respond(phone) {
+            font-size: 3.6rem;
+        }
     
         /* letter-spacing: 3.5rem; */
     }
@@ -52,6 +60,14 @@ body {
     color: transparent;
     letter-spacing: .2rem;
 
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
+
     // transition: all .2s;
 
     // &:hover {
@@ -63,6 +79,18 @@ body {
 .block-text {
     width: 70%;
     margin: 0 auto;
+
+    // @include respond(tab-port) {
+    //     width: 60rem;
+    //     //padding: 0 3rem;
+    //     margin: 0 auto;
+    // }
+
+      @include respond(tab-port) {
+        width: 100%;
+    }
+
+    
 }
 
 .heading-tertiary {

@@ -2,10 +2,15 @@
     background-color: $color-grey-light-1;
     padding: 10rem 0;
 
+    @include respond(tab-port) {
+        padding: 5rem 0;
+    }
+
 }
 
 .section-features {
-    padding: 20rem 0;
+    // padding: 20rem 0;
+    padding: 15rem 0;
     background-image: linear-gradient(
         to right bottom, 
         rgba(126, 213, 111, 0.801),
@@ -15,12 +20,20 @@
 
     // background-image: url(../img/hero.jpg);
     background-size: cover;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .section-book {
     padding: 15rem 0;
     // background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
     background-color: #f4f4f4;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
 
 .book {
