@@ -195,6 +195,11 @@ body {
   padding: 10rem 0;
   font-size: 1.4rem;
   color: #f7f7f7; }
+  .footer .row {
+    padding: 0 3rem; }
+    @media (max-width: 56.25em) {
+      .footer .row {
+        max-width: 70rem; } }
   @media (max-width: 56.25em) {
     .footer {
       padding: 8rem 0; } }
@@ -285,10 +290,6 @@ body {
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
-  @media (max-width: 56.25em) {
-    .row {
-      max-width: 50rem;
-      padding: 0 3rem; } }
   .row::after {
     content: "";
     display: table;
@@ -596,6 +597,10 @@ body {
   @media (max-width: 56.25em) {
     .section-about {
       padding: 5rem 0; } }
+  @media (max-width: 56.25em) {
+    .section-about .row {
+      max-width: 70rem;
+      padding: 0 3rem; } }
 
 .section-features {
   padding: 15rem 0;
@@ -604,6 +609,10 @@ body {
   @media (max-width: 56.25em) {
     .section-features {
       padding: 10rem 0; } }
+  @media (max-width: 56.25em) {
+    .section-features .row {
+      max-width: 50rem;
+      padding: 0 3rem; } }
 
 .section-book {
   padding: 15rem 0;
@@ -616,8 +625,19 @@ body {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: cover;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
-  height: 50rem; }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25); }
+  @media (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 70%), url(../img/nat-10.jpg); } }
+  @media (max-width: 56.25em) {
+    .book {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 70%), url(../img/nat-10.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 75em) {
+      .book__form {
+        width: 65%; } }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%; } }
