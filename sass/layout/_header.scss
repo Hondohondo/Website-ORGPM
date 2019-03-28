@@ -197,15 +197,27 @@
     background-image: url(../img/services.jpg);
     /* height: auto;
     width: auto; */
-    height: 47vh;
+    height: 60vh;
     // background-size: cover;
     // background-position: top;
 }
 
 .service__container {
-    max-width: 117rem;
-    margin: 0 auto;
-    padding-top: 6.5rem;
+    //max-width: 117rem;
+    position: absolute;
+    width: $grid-width;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    //transform: translate(-50%, -50%);
+    //max-width: $grid-width;
+    //margin: 10rem auto;
+    //padding-top: 6.5rem;
+
+    @include respond(tab-land) {
+        width: 100%;
+        padding: 0 2%;
+    }
 
     span {
         display: block;

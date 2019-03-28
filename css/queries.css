@@ -34,13 +34,16 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
+
+    .main-nav {display: none;}
     
     .main-nav {
         float: left;
         margin-top: 2rem;
         margin-left: 15rem;
+        /* //z-index: 999; */
         /* padding-left: 10rem; */
-        
+        /* position: absolute; */
     }
 
     .main-nav li {
