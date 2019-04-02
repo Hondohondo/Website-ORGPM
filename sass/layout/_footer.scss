@@ -31,8 +31,6 @@
     &__logo {
         width: 22rem;
         height: auto;
-
-
     }
 
     &__navigation {
@@ -137,6 +135,22 @@
             float: none;
         }
     }
+}
+
+#property {
+
+    .footer {
+        background-color: $color-grey-dark-3;
+        padding: 10rem 0;
+
+        &__logo {
+            height: 12rem;
+            width: auto;
+        }
+
+
+    }
+
 }
 
 .ion-social-facebook,

@@ -161,6 +161,10 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--white {
+  background-color: #fff;
+  color: #777; }
+
+.btn--white {
   /* text-align: center; */
   text-decoration: none;
   font-size: 1.4rem;
@@ -191,6 +195,14 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
+
+#property .btn-text:link, #property .btn-text:visited {
+  color: #01415c;
+  border-bottom: 1px solid #01415c; }
+
+#property .btn-text:hover {
+  background-color: #01415c;
+  color: #fff; }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
@@ -329,6 +341,13 @@ body {
         width: 100%;
         float: none; } }
 
+#property .footer {
+  background-color: #333;
+  padding: 10rem 0; }
+  #property .footer__logo {
+    height: 12rem;
+    width: auto; }
+
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-instagram {
@@ -412,6 +431,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+
+#property .header__nav-bar {
+  border-bottom: 0; }
+
+#property .header__logo {
+  height: 12rem; }
+
+#property .main-nav li a::before {
+  background: #01415c; }
+
+#property .sticky .header__logo {
+  height: 8.4rem; }
 
 /* ---------------------------------------------
 ------ MAIN NAVIGATION ----------------

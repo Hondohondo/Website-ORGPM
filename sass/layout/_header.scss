@@ -66,6 +66,40 @@
 
 }
 
+#property {
+    //background-image: url(../img/PropertyLogo.jpg);
+    .header {
+        &__nav-bar {
+            border-bottom: 0;
+        }
+
+        &__logo{
+            height: 12rem; 
+       }
+    }
+
+
+
+.main-nav {
+    & li {
+        & a::before {
+            background: $color-org-blue;
+        } 
+    }
+}
+
+    .sticky {
+        .header__logo {
+            height: 8.4rem; 
+        }
+    }
+   
+  
+}
+
+
+
+
 /* ---------------------------------------------
 ------ MAIN NAVIGATION ----------------
 --------------------------------------------- */
@@ -172,6 +206,7 @@
     //     padding-left: 3rem;
    }
 }
+
 
 
 /* ---------------------------------------------
