@@ -81,6 +81,16 @@ body {
     // }
 }
 
+#property {
+
+    .heading-secondary {
+        background-image: linear-gradient(to right, $color-primary-blue, $color-org-blue);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
 .block-text {
     width: 70%;
     margin: 0 auto;

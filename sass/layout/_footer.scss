@@ -1,5 +1,6 @@
 .footer {
     background-color: $color-grey-dark-3;
+   // background-color: $color-white;
     padding: 10rem 0;
     font-size: 1.4rem;
     color: $color-grey-light-1;
@@ -74,6 +75,8 @@
         &:hover,
         &:active {
             color: $color-primary;
+            
+            //color: $color-org-green;
             box-shadow: 0 1rem 2rem rgba($color-black, .4);
 
             // transform: rotate(5deg) scale(1.3);
@@ -121,7 +124,6 @@
         &:active {
             color: #dddddd;
         }
-
     }
 
     &__copyright {
@@ -140,17 +142,43 @@
 #property {
 
     .footer {
+        /*
         background-color: $color-grey-dark-3;
-        padding: 10rem 0;
+        background-color: #0e2332;
+        background-color:#0F2027;
+        background-color:#013d63;
+        background-color:#142027; //I like this more
+        
+        background-color:#01354b;
+        background-color:#01293a; 
+          background-color:#001219; 
+          */
+
+       //background-color:$color-footer;
+       // background-color:#142027;
+
+       // padding: 10rem 0;
+       //#0e2332;
 
         &__logo {
             height: 12rem;
             width: auto;
         }
 
+        &__link {
+            &:link,
+            &:visited {
 
+            }
+    
+            &:hover,
+            &:active {
+                color: $color-primary-blue;
+                //color: $color-org-blue;
+            }
+    
+        }
     }
-
 }
 
 .ion-social-facebook,

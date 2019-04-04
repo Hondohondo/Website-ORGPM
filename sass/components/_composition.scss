@@ -1,0 +1,23 @@
+.composition {
+
+    &__photo {
+        width: 100%;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 2px;
+        //vertical-align: middle;
+        margin: 3rem auto;
+        transition: all .2s;
+        outline-offset: 2rem;
+
+        &:hover {
+            //outline: 1.5rem solid $color-primary;
+            outline: .25rem solid $color-org-blue;
+            transform: scale(1.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+
+        }
+
+    }
+
+
+}
