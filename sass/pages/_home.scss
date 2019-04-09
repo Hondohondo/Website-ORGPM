@@ -97,3 +97,81 @@
         }
     }
 }
+
+.section-homes {
+    //background-color: $color-secondary;
+    //background-color: #101d2c;
+   // width: min-content;
+    //margin: 0 auto;
+    margin: 15rem 0;
+    //display: grid;
+
+}
+
+.home {
+     background-color: #f9f7f6;
+     // position: relative;
+     //margin-bottom: 5rem;
+
+     &__box {
+        // margin-top: 0rem;
+
+     }
+     
+
+     &__img {
+         width: 100%;
+         
+        
+         
+
+     }
+
+     &__name {
+        
+        width: 80%;
+        margin: 0 auto;
+        //position: absolute;
+        //top: 38%;
+       // left: 10%;
+        //margin-bottom: 5rem;
+        //z-index: 10;
+        transform: translateY(-50%);
+
+         font-size: 1.6rem;
+         text-align: center;
+         padding: 1.25rem;
+         background-color: #101d2c;
+         color: $color-white;
+         font-weight: 400;
+
+     }
+
+     &__location,
+     &__rooms,
+     &__area,
+     &__price {
+         font-size: 1.5rem;
+         margin-left: 2rem;
+         margin-bottom: 2rem;
+
+    
+
+
+        i {
+            color: $color-primary;
+            // height: 2rem;
+            // width: 2rem;
+            font-size: 2.5rem;
+            margin-right: 1rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        p {
+            display: inline-block;
+            vertical-align: middle;
+        }
+         
+    }
+}

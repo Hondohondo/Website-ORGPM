@@ -428,10 +428,13 @@
 --------------------------------------------- */
 
 .icon-big {
-    font-size: 350%;
+    font-size: 1500%;
     display: block;
-    color: $color-primary;
-    margin-bottom: 1rem;
+    //color: $color-primary;
+    //margin-bottom: 1rem;
+    line-height: 0;
+    text-align: center;
+    background-color: #efefef;
 }
 
 .icon-small {

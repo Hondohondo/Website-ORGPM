@@ -731,10 +731,11 @@ body {
 ------ ICONS ----------------
 --------------------------------------------- */
 .icon-big {
-  font-size: 350%;
+  font-size: 1500%;
   display: block;
-  color: #55c57a;
-  margin-bottom: 1rem; }
+  line-height: 0;
+  text-align: center;
+  background-color: #efefef; }
 
 .icon-small {
   display: inline-block;
@@ -816,3 +817,34 @@ body {
     @media (max-width: 56.25em) {
       .book__form {
         width: 100%; } }
+
+.section-homes {
+  margin: 15rem 0; }
+
+.home {
+  background-color: #f9f7f6; }
+  .home__img {
+    width: 100%; }
+  .home__name {
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #101d2c;
+    color: #fff;
+    font-weight: 400; }
+  .home__location, .home__rooms, .home__area, .home__price {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem; }
+    .home__location i, .home__rooms i, .home__area i, .home__price i {
+      color: #55c57a;
+      font-size: 2.5rem;
+      margin-right: 1rem;
+      display: inline-block;
+      vertical-align: middle; }
+    .home__location p, .home__rooms p, .home__area p, .home__price p {
+      display: inline-block;
+      vertical-align: middle; }
