@@ -848,3 +848,61 @@ body {
     .home__location p, .home__rooms p, .home__area p, .home__price p {
       display: inline-block;
       vertical-align: middle; }
+
+.section-stori {
+  background-color: #f7f7f7; }
+  .section-stori .row {
+    max-width: 100%; }
+
+.stori__img--1 {
+  width: 100%;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1); }
+
+.stori__content {
+  background-color: #f7f7f7;
+  padding: 6rem 8vw; }
+
+.stori__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem; }
+
+.heading-2 {
+  font-weight: 400;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1; }
+  .heading-2--light {
+    color: #f7f7f7; }
+  .heading-2--dark {
+    color: #777; }
+
+.heading-3 {
+  font-size: 1.6rem;
+  color: #55c57a;
+  text-transform: uppercase; }
+
+.btn-property {
+  background-color: #55c57a;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn-property:hover {
+    background-color: #28b485; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 3rem; }
+
+.mb-lg {
+  margin-bottom: 4rem; }
+
+.mb-hg {
+  margin-bottom: 8rem; }

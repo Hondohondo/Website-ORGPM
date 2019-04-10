@@ -175,3 +175,94 @@
          
     }
 }
+
+.section-stori {
+    background-color: $color-grey-light-1;
+
+    .row {
+        max-width: 100%;
+    }
+
+    
+
+}
+
+.stori {
+    &__pictures {
+        //background-color: $color-primary;
+        //position: relative;
+        //background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(img/back.jpg);
+    }
+
+    &__img--1 {
+        
+       width: 100%;
+       //width: 450px;
+        box-shadow: 0 2rem 5rem rgba(#000, .1);
+        //width: 60%;
+        //position: absolute;
+        //top: 20%;
+        //left: 20%;
+        //margin-top: 6vh;   COMMENTS --    get a photo with a higher height
+    }
+
+    &__img--2 {
+        //display: none;
+        //width: 388px;
+       // width: 60%;
+        //position: absolute;
+        //top: 20%;
+       // left: 50%;
+        //box-shadow: 0 2rem 5rem rgba(#000, .2);
+       // transform: translateY(-50%);
+    }
+
+    &__content {
+        background-color: $color-grey-light-1;
+
+        padding: 6rem 8vw;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 4rem;
+    }
+}
+
+.heading-2 {
+    font-weight: 400;
+    font-size: 4rem;
+    font-style: italic;
+    line-height: 1;
+
+    &--light {color: $color-grey-light-1;}
+    &--dark {color: $color-grey-dark;}
+}
+
+.heading-3 {
+    font-size: 1.6rem;
+    color: $color-primary;
+    text-transform: uppercase;
+}
+
+.btn-property {
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: $color-primary-dark;
+    }
+}
+
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 8rem; }
