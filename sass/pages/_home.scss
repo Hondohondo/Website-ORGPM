@@ -105,6 +105,9 @@
     //margin: 0 auto;
     margin: 15rem 0;
     //display: grid;
+    .home__box {
+        margin-bottom: 1rem;
+    }
 
 }
 
@@ -115,6 +118,7 @@
 
      &__box {
         // margin-top: 0rem;
+        
 
      }
      
@@ -141,7 +145,8 @@
          font-size: 1.6rem;
          text-align: center;
          padding: 1.25rem;
-         background-color: #101d2c;
+         //background-color: #101d2c;
+         background-color: $color-org-blue;
          color: $color-white;
          font-weight: 400;
 
@@ -151,7 +156,8 @@
      &__rooms,
      &__area,
      &__price {
-         font-size: 1.5rem;
+         //font-size: 1.5rem;
+         font-size: 1.3rem;
          margin-left: 2rem;
          margin-bottom: 2rem;
 
@@ -159,10 +165,12 @@
 
 
         i {
-            color: $color-primary;
+            color: $color-org-blue;
+            //color: $color-grey-dark;
             // height: 2rem;
             // width: 2rem;
-            font-size: 2.5rem;
+            //font-size: 2.5rem;
+            font-size: 2rem;
             margin-right: 1rem;
             display: inline-block;
             vertical-align: middle;
@@ -259,6 +267,28 @@
 
     &:hover {
         background-color: $color-primary-dark;
+    }
+}
+
+.home__btn {
+    //background-color: $color-org-blue;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background-color: $color-grey-dark-2;
+    color: $color-white;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.8rem 3rem;
+    //cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        //background-color:#101d2c;
+        background-color:$color-grey-dark;
     }
 }
 

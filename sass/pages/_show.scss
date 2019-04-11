@@ -1,0 +1,33 @@
+.gallery {
+
+   
+    //margin: 1rem 5rem;
+   // background-color: blue;
+
+
+    img {
+        transition: 1s;
+        padding: 1.5rem;
+       // width: 20rem;
+       width: 50%;
+      //height: 100%;
+
+        &:hover {
+           // filter: grayscale(100%);
+           // transform: scale(1.1);
+        }
+    }
+
+    .imgshow {
+        height: 50vh;
+    }
+
+
+
+
+}
+
+.gallery * {
+    margin: 0 !important;
+}
+

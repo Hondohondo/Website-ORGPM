@@ -20,6 +20,18 @@ ORDER: Base + Typography > General Layout + Grid > Page Layout > Components
 1em = 16px
 600/16 = 37.5em
  */
+/*
+$color-primary: #c69963; gold
+$color-primary-dark: #b28451;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;;
+*/
 /*medium green*/
 /*Light green*/
 /*dark green*/
@@ -820,6 +832,8 @@ body {
 
 .section-homes {
   margin: 15rem 0; }
+  .section-homes .home__box {
+    margin-bottom: 1rem; }
 
 .home {
   background-color: #f9f7f6; }
@@ -832,16 +846,16 @@ body {
     font-size: 1.6rem;
     text-align: center;
     padding: 1.25rem;
-    background-color: #101d2c;
+    background-color: #01415c;
     color: #fff;
     font-weight: 400; }
   .home__location, .home__rooms, .home__area, .home__price {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 2rem;
     margin-bottom: 2rem; }
     .home__location i, .home__rooms i, .home__area i, .home__price i {
-      color: #55c57a;
-      font-size: 2.5rem;
+      color: #01415c;
+      font-size: 2rem;
       margin-right: 1rem;
       display: inline-block;
       vertical-align: middle; }
@@ -895,6 +909,22 @@ body {
   .btn-property:hover {
     background-color: #28b485; }
 
+.home__btn {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  background-color: #999;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  transition: all .2s; }
+  .home__btn:hover {
+    background-color: #777; }
+
 .mb-sm {
   margin-bottom: 2rem; }
 
@@ -906,3 +936,14 @@ body {
 
 .mb-hg {
   margin-bottom: 8rem; }
+
+.gallery img {
+  transition: 1s;
+  padding: 1.5rem;
+  width: 50%; }
+
+.gallery .imgshow {
+  height: 50vh; }
+
+.gallery * {
+  margin: 0 !important; }
