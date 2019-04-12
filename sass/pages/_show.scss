@@ -1,5 +1,6 @@
 .gallery {
 
+
    
     //margin: 1rem 5rem;
    // background-color: blue;
@@ -9,7 +10,7 @@
         transition: 1s;
         padding: 1.5rem;
        // width: 20rem;
-       width: 50%;
+       width: 100%;
       //height: 100%;
 
         &:hover {
@@ -18,8 +19,13 @@
         }
     }
 
+
     .imgshow {
-        height: 50vh;
+       // height: 50vh;
+    }
+
+    .show-box-small {
+        margin-top: 1.5rem !important;
     }
 
 
@@ -28,6 +34,12 @@
 }
 
 .gallery * {
+    //margin: 0 !important;
+}
+
+.show-box * {
     margin: 0 !important;
 }
+
+
 

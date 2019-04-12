@@ -940,10 +940,10 @@ body {
 .gallery img {
   transition: 1s;
   padding: 1.5rem;
-  width: 50%; }
+  width: 100%; }
 
-.gallery .imgshow {
-  height: 50vh; }
+.gallery .show-box-small {
+  margin-top: 1.5rem !important; }
 
-.gallery * {
+.show-box * {
   margin: 0 !important; }
