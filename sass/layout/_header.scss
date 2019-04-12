@@ -228,13 +228,33 @@
     color: #fff;
 }
 
-#service {
-    background-image: url(../img/services.jpg);
-    /* height: auto;
-    width: auto; */
+#services,
+#aboutproperty,
+#about,
+#acres,
+#research,
+#team {
     height: 60vh;
-    // background-size: cover;
-    // background-position: top;
+}
+
+#services {
+   background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/services.jpg);
+}
+
+#about {
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/about.jpg);
+}
+#team{
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/team.jpg);
+}
+#research {
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/research.jpg);
+}
+#acres {
+    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/service.jpg);
+}
+#aboutproperty {
+    background-image: linear-gradient(rgba(20, 30, 48, 0.904), rgba(36, 59, 85, 0.904)), url(../img/service.jpg);
 }
 
 .service__container {
@@ -441,7 +461,7 @@
     display: inline-block;
     width: 3rem;
     text-align: center;
-    color: $color-primary;
+    color: $color-org-green;
     // font-size: 120%;
     // line-height: 120%;
     font-size: 1.4rem;
