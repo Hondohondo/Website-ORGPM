@@ -182,6 +182,10 @@ body {
   background-color: #fff;
   color: #777; }
 
+.btn--green {
+  background-color: #55c57a;
+  color: #fff; }
+
 .btn--white {
   /* text-align: center; */
   text-decoration: none;
@@ -271,6 +275,9 @@ body {
   width: 90%;
   display: block;
   transition: all .3s; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      width: 100%; } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -302,6 +309,11 @@ body {
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem; }
+  @media (max-width: 56.25em) {
+    .story {
+      width: 100%;
+      padding: 4rem;
+      padding-left: 7rem; } }
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -454,6 +466,9 @@ body {
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem; } }
+  @media (max-width: 56.25em) {
+    .row {
+      padding: 0 3rem; } }
   .row::after {
     content: "";
     display: table;
@@ -523,8 +538,10 @@ body {
   #property .header__logo {
     height: 12rem; }
 
-#property .main-nav li a::before {
-  background: #01415c; }
+#property .main-nav {
+  font-size: 1.7rem; }
+  #property .main-nav li a::before {
+    background: #01415c; }
 
 #property .sticky .header__logo {
   height: 8.4rem; }
@@ -800,7 +817,7 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 10rem 0; }
+  padding: 8rem 2rem; }
   @media (max-width: 56.25em) {
     .section-about {
       padding: 5rem 0; } }
@@ -810,40 +827,46 @@ body {
       padding: 0 3rem; } }
 
 .section-features {
-  padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, rgba(35, 37, 38, 0.97), rgba(65, 67, 69, 0.97)), url(../img/property/property-4-big.jpg);
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(35, 37, 38, 0.8), rgba(65, 67, 69, 0.8)), url(../img/property/property-4-big.jpg);
   background-size: cover; }
   @media (max-width: 56.25em) {
     .section-features {
-      padding: 10rem 0; } }
+      padding: 8rem 0; } }
   @media (max-width: 56.25em) {
     .section-features .row {
       max-width: 50rem;
       padding: 0 3rem; } }
 
 .section-stories {
-  padding: 15rem 0;
-  background-color: #f7f7f7; }
+  padding: 8rem 0;
+  background-color: #eee; }
+  @media (max-width: 56.25em) {
+    .section-stories {
+      padding: 5rem 0; } }
+  @media (max-width: 56.25em) {
+    .section-stories .row {
+      max-width: 70rem; } }
 
 .section-book {
-  padding: 15rem 0;
+  padding: 10rem 0;
   background-color: #f4f4f4; }
   @media (max-width: 56.25em) {
     .section-book {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
-  background-size: cover;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/heines.jpg);
+  background-size: 100%;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
-  height: 50rem; }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25); }
   @media (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 70%), url(../img/nat-10.jpg); } }
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/heines.jpg);
+      background-size: cover; } }
   @media (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 70%), url(../img/nat-10.jpg); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/heines.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
@@ -889,8 +912,6 @@ body {
 
 .section-stori {
   background-color: #f7f7f7; }
-  .section-stori .row {
-    max-width: 100%; }
 
 .stori__img--1 {
   width: 100%;

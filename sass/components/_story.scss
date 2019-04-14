@@ -8,6 +8,16 @@
     padding-left: 9rem;
     font-size: $default-font-size;
 
+    @include respond(tab-port) {
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+    }
+
+    @include respond(phone) {
+        
+    }
+
     &__shape {
         width: 15rem;
         height: 15rem;
@@ -22,6 +32,10 @@
 
         transform: translateX(-3rem);
         position: relative;
+
+        @include respond(phone) {
+        
+        }
     }
 
     &__img {

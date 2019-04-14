@@ -10,16 +10,12 @@
     //     #131317 0%,
     //     #7e8087 100%), url(../img/3.jpg); 
 
-   
-  
 
   //background-image: url(../img/hero.jpg);
    background-image: url(../img/heroo.png);
     background-size: cover;
     background-position: top;
     position: relative;
-
-
 
     &__nav-bar {
         width: 100%;
@@ -88,23 +84,21 @@
        }
     }
 
-
-
-.main-nav {
-    & li {
-        & a::before {
-            background: $color-org-blue;
-        } 
-    }
-}
-
-    .sticky {
-        .header__logo {
-            height: 8.4rem; 
+    .main-nav {
+        font-size: 1.7rem;
+        & li {
+            //line-height: 11rem;
+            & a::before {
+                background: $color-org-blue;
+            } 
         }
     }
-   
-  
+
+        .sticky {
+            .header__logo {
+                height: 8.4rem; 
+            }
+        }
 }
 
 
