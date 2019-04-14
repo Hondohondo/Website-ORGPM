@@ -613,7 +613,10 @@ body {
   color: #fff; }
 
 #services,
+#properties,
 #aboutproperty,
+#teamproperty,
+#showcase,
 #about,
 #acres,
 #research,
@@ -1001,13 +1004,15 @@ body {
   position: relative;
   background-color: #6b9912;
   height: 90vh;
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/heroo.jpg);
   background-size: cover; }
 
 .land-position-2 {
   position: relative;
   background-color: #01415c;
-  height: 90vh; }
+  height: 90vh;
+  background-image: url(../img/hero.jpg);
+  background-size: cover; }
 
 .land-box {
   position: absolute;
