@@ -66,13 +66,13 @@
     //background-image: url(../img/PropertyLogo.jpg);
 
     .header {
-       // background-image: url(../img/hero.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/office.jpg);
         //background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/lakepoint.jpg);
        // background-image: linear-gradient( rgba(56, 70, 77, 0.75), rgba(56, 70, 77, 0.75) ), url(../img/lakepoint.jpg);
        // background-image:linear-gradient( rgba(56, 70, 77, 0.85), rgba(56, 70, 77, 0.85) ), url(../img/lakepoint.jpg);
        // background-image: radial-gradient(#bbbbbb,grey,#333333); // Beautiful Radio Gradient
         //background-image: radial-gradient(#bbbbbb,rgba(128, 128, 128, 0.884),#333333d5), url(../img/lakepoint.jpg); // Beautiful Radio Gradient
-        background-image: radial-gradient(rgba(128, 128, 128, 0.95),rgba(107, 107, 107, 0.95),rgba(36, 36, 36, 0.95)),  url(../img/lakepoint.jpg); ; // Beautiful Radio Gradient
+        
        
         
         &__nav-bar {
@@ -244,6 +244,8 @@
     height: 60vh;
 }
 
+
+
 #services {
    background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/services.jpg);
 }
@@ -262,7 +264,7 @@
     background-image: linear-gradient(360deg,rgb(56, 56, 54) 10%,rgba(74, 74, 74, 0.705) 360%), url(../img/service.jpg);
 }
 #aboutproperty {
-    background-image: linear-gradient(rgba(22, 34, 42, 0.7),rgba(22, 34, 42, 0.99)), url(../img/service.jpg);
+    background-image: linear-gradient(rgba(22, 34, 42, 0.7),rgba(22, 34, 42, 0.99)), url(../img/heines.jpg);
    // background-image: linear-gradient(rgba(33, 47, 76, 0.959),rgba(33, 47, 76, 0.932)), url(../img/service.jpg);
 }
 
