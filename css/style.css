@@ -516,11 +516,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
-#property .header__nav-bar {
-  border-bottom: 0; }
-
-#property .header__logo {
-  height: 12rem; }
+#property .header {
+  background-image: radial-gradient(rgba(128, 128, 128, 0.95), rgba(107, 107, 107, 0.95), rgba(36, 36, 36, 0.95)), url(../img/lakepoint.jpg); }
+  #property .header__nav-bar {
+    border-bottom: 0; }
+  #property .header__logo {
+    height: 12rem; }
 
 #property .main-nav li a::before {
   background: #01415c; }
@@ -635,7 +636,7 @@ body {
   background-image: linear-gradient(360deg, #383836 10%, rgba(74, 74, 74, 0.705) 360%), url(../img/service.jpg); }
 
 #aboutproperty {
-  background-image: linear-gradient(rgba(20, 30, 48, 0.904), rgba(36, 59, 85, 0.904)), url(../img/service.jpg); }
+  background-image: linear-gradient(rgba(22, 34, 42, 0.7), rgba(22, 34, 42, 0.99)), url(../img/service.jpg); }
 
 .service__container {
   position: absolute;
@@ -967,3 +968,145 @@ body {
 
 .show-box * {
   margin: 0 !important; }
+
+#landbody {
+  padding: 3rem;
+  background-color: #999; }
+  #landbody .row {
+    margin: 0;
+    max-width: 100%; }
+
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #999;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.land-footer {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 1rem; }
+
+.landpage {
+  height: 90.5vh;
+  position: relative;
+  border: 2px solid #333; }
+
+.land-position-1 {
+  position: relative;
+  background-color: #6b9912;
+  height: 90vh;
+  background-image: url(../img/hero.jpg);
+  background-size: cover; }
+
+.land-position-2 {
+  position: relative;
+  background-color: #01415c;
+  height: 90vh; }
+
+.land-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.heading-land {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+
+.heading-land--main {
+  display: block;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
+
+.heading-land--sub {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1.75rem;
+  animation: moveInRight 1s ease-out; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.bton:link,
+.bton:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative; }
+
+.bton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.bton:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.bton-white {
+  background-color: #fff;
+  color: #777; }
+
+.bton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.bton-white::after {
+  background-color: #fff; }
+
+.bton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0; }
+
+.bton-animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }
