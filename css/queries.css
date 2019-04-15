@@ -47,11 +47,11 @@
     }
 
     #property .main-nav {
-        margin-left: 30rem;
+        margin-left: 22rem;
     }
 
     #property .header__logo {
-        height: 10rem;
+        height: 8rem;
     }
 
     .main-nav li {
