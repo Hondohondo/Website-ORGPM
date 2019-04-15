@@ -484,6 +484,8 @@ body {
     @media (max-width: 56.25em) {
       .row [class^="col-"] {
         width: 100% !important; } }
+  .row .col-1-of-5 {
+    width: calc((100% - 0rem) / 2); }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
@@ -997,16 +999,17 @@ body {
   margin: 0 !important; }
 
 #landbody {
-  padding: 3rem;
-  background-color: #999; }
+  background-color: #eeeeee; }
   #landbody .row {
     margin: 0;
     max-width: 100%; }
+    #landbody .row .land-position-1 {
+      margin-right: 0rem; }
 
 .dot {
-  height: 100px;
-  width: 100px;
-  background-color: #999;
+  height: 20px;
+  width: 20px;
+  background-color: #eeeeee;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -1021,21 +1024,18 @@ body {
 
 .landpage {
   height: 90.5vh;
-  position: relative;
-  border: 2px solid #333; }
+  position: relative; }
 
 .land-position-1 {
   position: relative;
-  background-color: #6b9912;
+  background-color: #999;
   height: 90vh;
-  background-image: url(../img/heroo.jpg);
   background-size: cover; }
 
 .land-position-2 {
   position: relative;
   background-color: #01415c;
   height: 90vh;
-  background-image: url(../img/hero.jpg);
   background-size: cover; }
 
 .land-box {
@@ -1063,8 +1063,8 @@ body {
 .heading-land--sub {
   display: block;
   font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 1.4rem;
   animation: moveInRight 1s ease-out; }
 
 @keyframes moveInLeft {

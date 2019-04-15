@@ -39,6 +39,10 @@
         }
     }
 
+    .col-1-of-5 {
+        width: calc((100% - #{$gutter-false}) / 2);
+    }
+
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
     }
