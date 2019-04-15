@@ -1,4 +1,5 @@
 #landbody {
+    //font-family: "Lato", sans-serif; 
     //padding: 3rem;
     background-color: #eeeeee;
     //background-image: linear-gradient($color-primary-light, $color-primary-dark), url(../img/about.jpg);
@@ -9,7 +10,18 @@
 
         .land-position-1 {
             margin-right: 0rem;
+
+            @include respond(tab-port) {
+                margin-bottom: 0rem;
+            }
         }
+
+        @include respond(tab-port) {
+            padding: 0;
+        }
+
+       
+
     }
    
     
@@ -29,16 +41,17 @@
   }
 
 .land-footer {
+    
     text-align: center;
     font-size: 1.6rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 
 
 .landpage {
     //margin-left: 3.5rem;
     //background-color: $color-primary-dark;
-    height: 90.5vh;
+    height: 90vh;
     position: relative;
     //border: 2px solid $color-grey-dark-3;
     
@@ -46,22 +59,31 @@
 
 .land-position-1 {
     position: relative;
-    background-color: $color-grey-dark-2;
+    //background-color: $color-grey-dark-2;
+    background-color: #929292;
     height: 90vh;
     //background-image: linear-gradient(#7ed56f, #28b485), url(../img/reception.jpg);
     //background-image: url(../img/heroo.jpg);
     background-size: cover;
+
+    @include respond(tab-port) {
+        height: 45vh;
+    }
     
     
     
 }
 .land-position-2 {
     position: relative;
+    //background-color: $color-grey-dark-2;
     background-color: $color-org-blue;
     height: 90vh;
     //background-image: url(../img/hero.jpg);
     background-size: cover;
     
+    @include respond(tab-port) {
+        height: 45vh;
+    }
     
 }
 .land-box {
@@ -149,6 +171,7 @@
 
 .bton:link,
 .bton:visited {
+    font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
