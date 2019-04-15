@@ -46,6 +46,14 @@
         /* position: absolute; */
     }
 
+    #property .main-nav {
+        margin-left: 30rem;
+    }
+
+    #property .header__logo {
+        height: 10rem;
+    }
+
     .main-nav li {
         line-height: 4rem;
     }

@@ -551,16 +551,11 @@ body {
 
 #property .main-nav {
   font-size: 1.7rem; }
-  #property .main-nav li {
-    line-height: 12rem; }
-    #property .main-nav li a::before {
-      background: #01415c; }
+  #property .main-nav li a::before {
+    background: #01415c; }
 
 #property .sticky .header__logo {
   height: 8.4rem; }
-
-#property .sticky .main-nav li {
-  line-height: 8rem; }
 
 /* ---------------------------------------------
 ------ MAIN NAVIGATION ----------------

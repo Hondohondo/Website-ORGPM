@@ -103,7 +103,7 @@
     .main-nav {
         font-size: 1.7rem;
         & li {
-            line-height: 12rem;
+           // line-height: 12rem;
             & a::before {
                 background: $color-org-blue;
             } 
@@ -117,7 +117,7 @@
             .main-nav {
     
                 & li {
-                    line-height: 8rem; 
+                    //line-height: 8rem; 
                 }
             }
         }
