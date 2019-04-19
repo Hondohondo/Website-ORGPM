@@ -836,7 +836,7 @@ body {
 
 .section-features {
   padding: 10rem 0;
-  background-image: linear-gradient(to right bottom, rgba(35, 37, 38, 0.8), rgba(65, 67, 69, 0.8)), url(../img/property/property-4-big.jpg);
+  background-image: linear-gradient(to right bottom, rgba(35, 37, 38, 0.8), rgba(65, 67, 69, 0.8)), url(../img/property/Property-4-big.jpg);
   background-size: cover; }
   @media (max-width: 56.25em) {
     .section-features {
